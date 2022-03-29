@@ -1,0 +1,60 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+.banner-text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 29%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  padding-bottom: 2rem;
+  height: 41vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner-text * {
+  margin-bottom: 1.5rem;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+}
+.smallcont {
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: white;
+  margin: 1rem;
+  max-width: 20rem;
+}
+.company {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+}
+.mylink {
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+.mylink:hover {
+  color: gray;
+}
